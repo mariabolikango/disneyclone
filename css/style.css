@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+   
+}
+@font-face{
+    font-family: "Montserrat-Regular";
+    src: url("Montserrat-Regular.ttf");
+}
+body{
+    background: #fff7fa;
+    font-family: 'Montserrat-Regular';
+}
+.container{
+    width: 1150px;
+    margin: 0 auto;
+}
+section{
+    margin-bottom: 30px;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    position: relative;
+    margin-left: 30px;
+
+}
+.nav-list{
+    display: inline-flex;
+    gap: 2rem;
+    align-items: center;
+    margin: 0 1.5rem;
+}
+.nav-action{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.aav-toggle{
+    cursor: pointer;
+    display: none;
+}
+.nav-toggle i{
+    font-size: 3.5rem;
+    color: #000;
+}
+.dropdown{
+    position: fixed;
+    align-items: center;
+    top: 3rem;
+    left: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transition: all 0.5s ease-in;
+    
+}
+.dropdown-inner{
+    display: grid;
+    background-color: rgb(13, 13, 66);
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: 2px;
+    padding: 10px;
+   
+}
+.nav-link:hover {
+    transition: all 0.5s ease-in;
+}
+.nav-list-menu:hover .dropdown{
+   clip-path: polygon(0 0, 100% 0, 100% 102%, 0 102%);
+}
+.item-list{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.5rem 0;
+    
+}
+.item-list h4{
+    color: #fff;
+
+}
+
+.banner-card img{
+    max-width: 100%;
+    height: auto;
+}
+.banner-text{
+    position: absolute;
+    margin-left: 80px;
+    top: 150px;
+}
+.banner-text img{
+    width: 400px;
+}
+.banner-text p.center{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+.banner-text button{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 70px;
+    padding: 12px 70px;
+    border-radius: 50px;
+    font-weight: bold;
+    background: #fff;
+}
+.cards{
+    display: flex;
+
+}
+.card{
+    margin: 20px 10px;
+    background: #fff;
+
+}
+.card-img img{
+    width: 100%;
+}
+.card-detail{
+    margin: 20px 25px;
+    
+}
+.card-header, .card-body, .card-footer{
+    margin-bottom: 20px;
+}
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.main-disney{
+    margin-top: 15px;
+    padding: 30px 0 30px 0;
+    background: rgb(7, 7, 75);
+    color: #fff;
+}
+.main-disney .card{
+    background: rgb(7, 7, 75);
+}
+.actu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.actu img{
+    width: 900px;
+    
+}
+.actu-btn button{
+    margin: 20px;
+    padding: 12px 70px;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #fff;
+    background: blue;
+}
+.main-shop{
+    position: relative;
+    
+}
+.shop-img img{
+    width: 100%;
+    height: 100%;
+}
+.shop-text{
+    position: absolute;
+    top: 115px;
+    margin-left: 730px;
+    color: #fff;
+}
+.shop-text img{
+    width: 380px;
+}
+.shop-text p{
+    margin-bottom: 5px;
+    margin-left: 50px;
+}
+.shop-text h3{
+    margin-top: 30px;
+    margin-left: 55px;
+}
+.main-spectacle{
+    position: relative;
+}
+
+.spectacle-text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 180px;
+   
+}
+.spectacle-text h1{
+    font-size: 35px;
+    margin-left: 170px;
+    margin-bottom: 15px;
+}
+.spectacle-text p{
+    margin-left: 170px;
+    margin-bottom: 15px;  
+}
+.spectacle-text h3{
+    margin-left: 170px;
+}
+.footer{
+    background-color: #fff;
+    padding: 40px 0;
+}
+.footer .row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer_col img{
+    margin-top: 40px;
+}
+.footer_col ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.footer_col ul.links li{
+    padding: 5px 0 3px 20px;
+    color: #000;
+   
+   
+}
+.footer_col ul li a{
+    color: #000;
+}
+
+
+
