@@ -41,12 +41,13 @@ section{
     align-items: center;
     gap: 1rem;
 }
-.aav-toggle{
+.nav-toggle{
     cursor: pointer;
     display: none;
+   
 }
 .nav-toggle i{
-    font-size: 3.5rem;
+    font-size: 1.5rem;
     color: #000;
 }
 .dropdown{
@@ -221,8 +222,12 @@ section{
     flex-direction: column;
     align-items: center;
 }
+.footer_col a{
+    color: #000;
+    margin: 0 10px;
+}
 .footer_col img{
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .footer_col ul{
     display: flex;
